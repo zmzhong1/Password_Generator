@@ -37,7 +37,7 @@ function getParameters() {
   var specialChar = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", ":", ";", "<", "=", ">", "?", "@", "[", "]", "^", "_", "{", "|", "}", "~"];
   var availableChar = [];
   // set length via prompt
-  length = Number(window.prompt("Input length of the password?", ""));
+  var length = Number(window.prompt("Input length of the password?", ""));
   if (!length || length == null) {
     alert("Wrong format!");
     return;
